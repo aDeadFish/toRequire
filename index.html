@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        span{
+            color:red;
+        }
+        .a{
+            color:blue;
+         }
+        #b{
+            color: blue;
+        }
+    </style>
+    <script src="js/require-v2.1.22.js" defer async="true" data-main="js/main.js"></script>
+</head>
+<body>
+    <div style="height:100px;width: 100px ;outline:1px solid black;">asdasd</div>
+    <span class="a">This is span</span>
+    <div id="b">
+        <span>b</span>
+    </div>
+
+    <div style="border: 1px solid black;overflow: hidden;" >
+        <img src="2D.png" style="float: left;"/>
+    </div>
+<script>
+    document.getElementById('b').style.backgroundColor="#ffd351";
+    document.getElementById('b').style.cssText="font-size:40px;background-color:#ffd351;";
+    document.getElementById('b').className="classname";
+
+</script>
+</body>
+</html>
